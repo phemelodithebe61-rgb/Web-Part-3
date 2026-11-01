@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name ="decription" content =flexfit is a fitness activewear">
+        <script src="js/script.js"></script>
+            <title> Home page</title>
+            <link rel="stylesheet" href="css/style.css">
+        <head>
+         <nav class="main-nav" araia-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact .html">Contact us</a></li>
+                    <li><a href="images.html">Images</a></li>
+                    <li><a href="items.html">Items</a></li>
+             </ul>
+         </nav>
+
+         <body>
+            <h2>Enquiry</h2>
+            <form class="form-card" id="enquiry-form">
+                <label for="name">First Name* </label>
+                <br>
+                <input type="text" id="name" name="name" required>
+                <small class="error" id="name-error"></small>
+                <br>
+                <label for="surname">Surname* </label>
+                <br>
+                <input type="text" id="surname" name="surname" required>
+                <small class="error" id="surname-error"></small>
+                <br>
+                <label for="email">Email* </label>
+                <br>
+                <input type="email" id="email" name="email" required>
+                <small class="error" id="email-error"></small>
+                <br>
+                <label for="phone">Phone Number</label>
+                <br>
+                <input type="tel" id="phone" name="phone" placeholder="0822172610">
+                <small class="error" id="phone-error"></small>
+                <br>
+                <label for="gym wear type">Gym Wear Type</label>
+                <br>
+                <select id="gym-wear-type" name="gym-wear-type">
+                    <option value="">Select gym wear type</option>
+                    <option value="black jumpsuit">Black Jumpsuit</option>
+                    <option value="short set">Short Set</option>
+                    <option value="purple set">Purple Set</option> 
+                 </select>
+                <small class="error" id="gym-wear-selection-error"></small>
+                <br>
+                <button type="submit" class="btn" btn-primary>Submit</button>
+                <p id="form-status" role="status"></p>
+
+                </form>
